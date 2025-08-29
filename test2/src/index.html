@@ -1,0 +1,916 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="flex h-15 justify-between items-center p-4  ">
+        
+        <div>
+            <img class="h-[35px]" src="./img/udemy.jpg" alt="">
+        </div>
+        <div class="text-xs">
+            <p class=" hover:bg-purple-100 p-2 rounded-sm hover:text-purple-800">Explore</p>
+        </div>
+        <div
+            class=" border-1 rounded-3xl pl-2 hover:bg-purple-50 w-70 h-9 active:bg-white active:text-black active:border-purple-800">
+            <i class="fa-solid fa-magnifying-glass text-xs"></i>
+            <input type="text" class="  text-xs focus:outline-none rounded-3xl mt-2 w-60" name="search"
+                placeholder=" Search for anything">
+
+        </div>
+        <div>
+            <ul class="flex text-xs gap-2 ">
+                <li class="hover:bg-purple-100 p-2 rounded-sm hover:text-purple-800">Plans & Pricing</li>
+                <li class="hover:bg-purple-100 p-2 rounded-sm hover:text-purple-800">Udemy Business</li>
+                <li class="hover:bg-purple-100 p-2 rounded-sm hover:text-purple-800">Teach Udemy</li>
+            </ul>
+        </div>
+        <div class="hover:bg-purple-100 p-2 rounded-sm h-8 hover:text-purple-800">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="text-sm flex gap-1.5">
+            <button
+                class="border-1 border-purple-800 text-purple-800 h-8 p-1 w-15 rounded-sm  hover:bg-purple-100  hover:text-purple-800 ">Log
+                in</button>
+            <button class="bg-purple-800 text-white p-1 h-8 w-15 rounded-sm  hover:bg-purple-700">Sign up</button>
+            <div
+                class="border-1 border-purple-800 px-2 py-1 h-8 rounded-sm hover:bg-purple-100 p-2  hover:text-purple-800 ">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+        </div>
+   
+    </nav>
+    <div>
+        <div class="relative">
+        <img class="h-[300px] " src="./img/a1.png" alt="">
+        </div>
+        <div class="absolute inset-0 px-15 mt-28">
+
+        <div class="bg-white w-85 p-4 h-40  ">
+            <h1 class="font-bold text-2xl">Always something new to learn</h1>
+            <p class="text-sm">
+                With courses added regularly to our catalog, you can get access to the latest skills. Sale from ₹479
+                ends today.
+            </p>
+        </div>
+        </div>
+    </div>
+    <div>
+        <div class="p-5">
+           <h1 class="text-2xl font-bold">Ready to reimagine your career?</h1>
+           <p class="text-sm">Get the skills and real-world experience employers want with Career Accelerators.</p>
+        </div>
+        <div class=" h-65 flex gap-2 justify-center ml-2 "> 
+            <div class="h-[250px] w-[310px]  border-1 border-gray-300 rounded-lg p-3 hover:bg-purple-50 relative">
+                <img class="h-[160px] rounded-lg " src="img/a2.png" alt="">
+                <h1 class="font-bold mt-2">Full Stack Web Developer</h1>
+                <div class="flex gap-1 absolute ">
+                    <div class="flex justify-center mt-2 items-center border-1 border-gray-300 rounded-sm h-5 w-10">
+                        <img class="h-3  " src="img/a3.jpg" alt="">
+                        <p class="text-[10px]">4.7</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] mt-2 flex justify-center items-center border-1 rounded-sm border-gray-300 h-5 w-15">455 ratings</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px]  mt-2 flex justify-center items-center border-1 rounded-sm border-gray-300 h-5 w-20 ">87.8 total hours</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class=" h-[250px] w-[310px]  border-1 border-gray-300 rounded-lg p-3 hover:bg-purple-50 relative">
+                <img class=" h-[160px] rounded-lg" src="img/a4.jpg" alt="">
+                <h1 class="font-bold mt-2 ">Digital Marketer</h1>
+                <div class="flex gap-1 absolute">
+                    <div class="flex justify-center mt-2 items-center border-1 border-gray-300 rounded-sm h-5 w-10">
+                        <img class="h-3  " src="img/a3.jpg" alt="">
+                        <p class="text-[10px]">4.5</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] mt-2 flex justify-center items-center border-1 rounded-sm border-gray-300 h-5 w-15">3.5k ratings</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px]  mt-2 flex justify-center items-center border-1 rounded-sm border-gray-300 h-5 w-20 ">28.4 total hours</p>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+            <div class=" h-[250px] w-[310px]  border-1 border-gray-300 rounded-lg p-3 hover:bg-purple-50 relative">
+                <img class=" h-[160px] rounded-lg " src="img/a5.jpg" alt="">
+                <h1 class="font-bold mt-2 ">Data Scientist</h1>
+                <div class="flex gap-1 absolute">
+                    <div class="flex justify-center mt-2 items-center border-1 border-gray-300 rounded-sm h-5 w-10">
+                        <img class="h-3  " src="img/a3.jpg" alt="">
+                        <p class="text-[10px]">4.6</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] mt-2 flex justify-center items-center border-1 rounded-sm border-gray-300 h-5 w-15">220k ratings</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px]  mt-2 flex justify-center items-center border-1 rounded-sm border-gray-300 h-5 w-20 ">47.1 total hours</p>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+            
+        </div>
+        <button class="text-[11px] font-bold text-purple-800 border-1 border-purple-800 h-8 w-35 p-1 rounded-sm ml-8 hover:bg-purple-200">All Career Accelerators</button>
+    </div>
+    <div>
+        <div class="p-5">
+            <h1 class="font-bold text-2xl">All the skills you need in one place</h1>
+            <p class="text-sm">From critical skills to technical topics, Udemy supports your professional development.</p>
+        </div>
+        <div class=" text-sm mt-5">
+            <ul class="flex gap-5 font-bold text-gray-500 cursor-pointer pl-5 ">
+                <li class=" hover:text-blue-950 active:border-b-1 border-blue-950">Data Science</li>
+                <li class=" hover:text-blue-950 active:border-b-1 border-blue-950">IT Certifications</li>
+                <li class=" hover:text-blue-950 active:border-b-1 border-blue-950">Leadership</li>
+                <li class=" hover:text-blue-950 active:border-b-1 border-blue-950">Web Development</li>
+                <li class=" hover:text-blue-950 active:border-b-1 border-blue-950">Communication</li>
+                <li class=" hover:text-blue-950 active:border-b-1 border-blue-950">Business Analytics & Intelligence</li>
+            </ul>
+            
+            <div class=" bg-gray-100 h-120">
+                <div class="flex gap-2 py-9 px-3 cursor-pointer"> 
+                    
+                    <div class="bg-gray-200 h-11 w-25 p-1 rounded-3xl hover:bg-gray-300">
+                        <h1 class="font-bold ml-3">ChatGPT</h1>
+                        <p class="text-[10px] ml-3">4M+learners</p>
+                    </div>
+                    <div class="bg-gray-200 h-11 w-35 p-1 rounded-3xl hover:bg-gray-300">
+                        <h1 class="font-bold ml-3">Data Science</h1>
+                        <p class="text-[10px] ml-3">8m+learners</p>
+                    </div>
+                    <div class="bg-gray-200 h-11 w-30 p-1 rounded-3xl hover:bg-gray-300">
+                        <h1 class="font-bold ml-4">Python</h1>
+                        <p class="text-[10px] ml-4">49.9M+learners</p>
+                    </div>
+                    <div class="bg-gray-200 h-11 w-45 p-1 rounded-3xl hover:bg-gray-300">
+                        <h1 class="font-bold ml-4">Machine Learning</h1>
+                        <p class="text-[10px] ml-4">9M+learners</p>
+                    </div>
+                    <div class="bg-gray-200 h-11 w-38 p-1 rounded-3xl hover:bg-gray-300">
+                        <h1 class="font-bold ml-4">Deep Learning</h1>
+                        <p class="text-[10px] ml-4">2M+learners</p>
+                    </div>
+                    <div class="bg-gray-200 h-11 w-58 p-1 rounded-3xl hover:bg-gray-300">
+                        <h1 class="font-bold ml-4">Artificial Intelligence (AI)</h1>
+                        <p class="text-[10px] ml-4">4M+learners</p>
+                    </div>
+                    <div class="bg-gray-200 h-11 w-27 p-1 rounded-3xl hover:bg-gray-300">
+                        <h1 class="font-bold ml-3">Statistics</h1>
+                        <p class="text-[10px] ml-3">1M+learners</p>
+                    </div>
+                    
+                </div>
+                <div class="flex gap-6 cursor-pointer">
+                    <div class="bg-white h-70 w-55 ml-5 rounded-lg  border-1 border-gray-300 gap-2 ">
+                        <img class="rounded-lg object-cover opacity-100 hover:opacity-80 transition-opacity duration-300 " src="img/a6.jpg" alt="">
+                        <h1 class="font-bold text-[12px] pl-3 mt-2">The Complete AI Guide: Learn <br> ChatGPT, Generative AI & More</h1>
+                        <p class="pl-3 text-[11px] mt-2">Julian Melanson, Benza Maman, Leap...</p>
+                        <div class="flex pl-3 mt-2">
+                           <p class="text-[11px]"> 4.5</p> <img class="h-4 w-12" src="img/star rating.png" alt=""> <p class="text-[11px]">(51,981)</p>
+                        </div>
+                        <h1 class="font-bold text-[12px] pl-3 mt-2">₹3,089</h1>
+                        <button class="h-5 w-15 mt-2 text-[10px]  font-bold bg-cyan-200 ml-3 border-1 border-cyan-200 text-cyan-800 rounded-md">Bestseller</button>
+
+                    </div>
+                    <div class="bg-white h-70 w-55 rounded-lg border-1 border-gray-300">
+                        <img class="rounded-lg object-cover opacity-100 hover:opacity-80 transition-opacity duration-300" src="img/a7.jpg" alt="">
+                        <h1 class="font-bold text-[12px] pl-3 mt-2">ChatGPT: Complete ChatGPT <br> Course For Work 2025...</h1>
+                        <p class="pl-3 text-[11px] mt-2">Steve Ballinger, MBA</p>
+                         <div class="flex pl-3 mt-2">
+                           <p class="text-[11px]"> 4.5</p> <img class="h-4 w-12" src="img/star rating.png" alt=""> <p class="text-[10px]">(117,967)</p>
+                         </div>
+                         <h1 class="font-bold text-[12px] pl-3 mt-2">₹4,029</h1>
+                         <button class="h-5 w-15 mt-2 text-[10px]  font-bold bg-cyan-200 ml-3 border-1 border-cyan-200 text-cyan-800 rounded-md">Bestseller</button>
+
+                    </div>
+                    <div class="bg-white h-70 w-55 rounded-lg border-1 border-gray-300">
+                        <img class="rounded-lg object-cover opacity-100 hover:opacity-80 transition-opacity duration-300" src="img/a8.jpg" alt="">
+                        <h1 class="font-bold text-[12px] pl-3 mt-2">ChatGPT & Generative AI - The Complete Guide</h1>
+                        <p class="pl-3 text-[11px] mt-2">Academind By Maximilian...</p>
+                         <div class="flex pl-3 mt-2">
+                           <p class="text-[11px]"> 4.6</p> <img class="h-4 w-12" src="img/star rating.png" alt=""> <p class="text-[10px]">(26,254)</p>
+                         </div>
+                         <h1 class="font-bold text-[12px] pl-3 mt-2">₹839</h1>
+                         <button class="h-5 w-15 mt-2 text-[10px]  font-bold bg-cyan-200 ml-3 border-1 border-cyan-200 text-cyan-800 rounded-md">Bestseller</button>
+
+                    </div>
+                    <div class="bg-white h-70 w-55 rounded-lg border-1 border-gray-300">
+                        <img class="rounded-lg object-cover opacity-100 hover:opacity-80 transition-opacity duration-300" src="img/a9.jpg" alt="">
+                        <h1 class="font-bold text-[12px] pl-3 mt-2">ChatGPT, DeepSeek, Grok and <br>30+ More AI Marketing...</h1>
+                        <p class="pl-3 text-[11px] mt-2">Anton Voroniuk, Anton Voroniuk...</p>
+                         <div class="flex pl-3 mt-2">
+                           <p class="text-[11px]"> 4.5</p> <img class="h-4 w-12" src="img/star rating.png" alt=""> <p class="text-[10px]">(807)</p>
+                         </div>
+                         <h1 class="font-bold text-[12px] ml-2 mt-2">₹989</h1>
+                         <div class=" h-5 mt-2 ml-3 bg-purple-900 w-19 flex rounded-md gap-1 p-1">
+                            <i class="fa-solid fa-circle-check text-white "></i>
+                            <button class="text-[10px] font-bold  text-white ">Premium</button>
+                         </div>
+
+                    </div>
+
+
+                </div>
+                <button class="text-[11px] font-bold text-purple-800 border-1 border-purple-800 h-8 w-50 p-1 rounded-sm ml-5 mt-7 hover:bg-purple-200">Show all Data Science courses</button>
+            </div>
+        </div>
+    </div>
+    <div class="h-120 ">
+        <p class="ml-70 mt-10 text-sm text-gray-500">Trusted by over 17,000 companies and millions of learners around the world</p>
+        <div class="flex gap-9 p-6 ml-10">
+            <img class="h-8" src="img/vw logo.png" alt="">
+            <img class="h-8 " src="img/samsung logo.png" alt="">
+            <img class="h-15" src="img/cisco logo.png" alt="">
+            <img class="h-8" src="img/vimeo.png" alt="">
+            <img class="h-8" src="img/p&g logo.jpg" alt="">
+            <img class="h-15" src="img/hp logo.png" alt="">
+            <img class="h-12" src="img/citi logo.png" alt="">
+            <img class="h-13" src="img/ericsson logo.png" alt="">
+
+        </div><br>
+        <h1 class="font-bold font-serif text-2xl text-gray-700 ml-3">Learners are viewing</h1>
+        <div class="flex justify-evenly items-center">
+            <div class=" h-65 w-55 ml-3  ">
+                <img class="border-1 border-gray-300 h-26 object-cover opacity-100 hover:opacity-80 transition-opacity duration-300" src="img/a10.jpg" alt="">
+                <h1 class="font-bold text-[12px]  mt-2">100 Days of Code: The Complete Python Pro...</h1>
+                        <p class="text-[10px] mt-2">Dr. Angela Yu, Developer and Lead...</p>
+                         <div class="flex  mt-2">
+                           <p class="text-[11px]"> 4.7</p> <img class="h-4 w-12" src="img/star rating.png" alt=""> <p class="text-[10px]">(388,133)</p>
+                         </div>
+                         <h1 class="font-bold text-[12px]  mt-2">₹399 <strike class="text-[10px] pl-1 mt-2">₹3,109</strike> </h1> 
+                         <button class="h-5 w-15 mt-2 text-[10px]  font-bold bg-cyan-200  border-1 border-cyan-200 text-cyan-800 rounded-md">Bestseller</button>
+
+
+            </div>
+            <div class=" h-65 w-55 ml-3 ">
+                <img class="border-1 border-gray-300 h-26 object-cover opacity-100 hover:opacity-80 transition-opacity duration-300" src="img/a11.jpg" alt="">
+                <h1 class="font-bold text-[12px]  mt-2">The Complete Full-Stack Web Development Bootcamp</h1>
+                        <p class=" text-[10px] mt-2">Dr. Angela Yu, Developer and Lead...</p>
+                         <div class="flex mt-2">
+                           <p class="text-[11px]"> 4.7</p> <img class="h-4 w-12" src="img/star rating.png" alt=""> <p class="text-[10px]">(450,185)</p>
+                         </div>
+                         <h1 class="font-bold text-[12px]  mt-2">₹399 <strike class="text-[10px] pl-1 mt-2">₹3,109</strike> </h1> 
+                         <button class="h-5 w-15 mt-2 text-[10px]  font-bold bg-cyan-200  border-1 border-cyan-200 text-cyan-800 rounded-md">Bestseller</button>
+
+
+            </div>
+            <div class=" h-65 w-55 ml-3">
+                <img class="border-1 border-gray-300 h-26 object-cover opacity-100 hover:opacity-80 transition-opacity duration-300" src="img/a12.jpg" alt="">
+                 <h1 class="font-bold text-[12px] mt-2">[NEW] Ultimate AWS Certified Cloud Practition...</h1>
+                        <p class=" text-[10px] mt-2">Stephane Maarek | AWS Certified...</p>
+                         <div class="flex mt-2">
+                           <p class="text-[11px]"> 4.7</p> <img class="h-4 w-12" src="img/star rating.png" alt=""> <p class="text-[10px]">(261,655)</p>
+                         </div>
+                         <h1 class="font-bold text-[12px] mt-2">₹399 <strike class="text-[10px] pl-1 mt-2">₹3,289</strike> </h1> 
+                         <button class="h-5 w-15 mt-2 text-[10px]  font-bold bg-cyan-200  border-1 border-cyan-200 text-cyan-800 rounded-md">Bestseller</button>
+
+            </div>
+            <div class=" h-65 w-55 ml-3 ">
+                <img class="  border-1 border-gray-300 h-26 object-cover opacity-100 hover:opacity-80 transition-opacity duration-300" src="img/a13.jpg" alt="">
+                 <h1 class="font-bold text-[12px] mt-2">Ultimate AWS Certified <br> Solutions Architect Asso...</h1>
+                        <p class=" text-[10px] mt-2">Stephane Maarek | AWS Certified...</p>
+                         <div class="flex  mt-2">
+                           <p class="text-[11px]"> 4.7</p> <img class="h-4 w-12" src="img/star rating.png" alt=""> <p class="text-[10px]">(267,024)</p>
+                         </div>
+                         <h1 class="font-bold text-[12px] mt-2">₹399 <strike class="text-[10px] pl-1 mt-2">₹3,289</strike> </h1>
+                         <button class="h-5 w-15 mt-2 text-[10px]  font-bold bg-cyan-200 border-1 border-cyan-200 text-cyan-800 rounded-md">Bestseller</button>
+
+            </div>
+            <div class="h-65 w-55 ml-3">
+                <img class="border-1 border-gray-300 h-26 object-cover opacity-100 hover:opacity-80 transition-opacity duration-300" src="img/a14.jpg" alt="">
+                 <h1 class="font-bold text-[12px]  mt-2">The Complete Python Bootcamp From Zero to...</h1>
+                        <p class=" text-[10px] mt-2">Jose Portilla, Pierian Training</p>
+                         <div class="flex mt-2">
+                           <p class="text-[11px]"> 4.6</p> <img class="h-4 w-12" src="img/star rating.png" alt=""> <p class="text-[10px]">(545,094)</p>
+                         </div>
+                         <h1 class="font-bold text-[12px] mt-2">₹399 <strike class="text-[10px] pl-1 mt-2">₹3,109</strike> </h1> 
+                        <div class=" h-5 mt-2 bg-purple-900 w-19 flex rounded-md gap-1 p-1">
+                            <i class="fa-solid fa-circle-check text-white text-sm"></i>
+                            <button class="text-[10px] font-bold  text-white ">Premium</button>
+                         </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-gray-100 h-160 ">
+        <h1 class="text-2xl font-serif font-bold pt-10 pl-2">Learning focused on your goals</h1>
+         <div class="flex">
+            <div class="pl-2 pt-5 ">
+             <div class="bg-white border-1 border-gray-300 h-30 w-110 rounded-lg flex hover:bg-purple-50">
+               <img class="w-20" src="" alt="">
+               <div class="mt-5">
+                 <h1 class="font-bold ">Hands-on training</h1>
+                 <p class="text-[13px] mt-1">Upskill effectively with AI-powered coding exercises, <br>practice tests, and quizzes.</p>
+               </div>
+              
+
+             </div>
+             <div class="bg-white border-1 border-gray-300 h-30 w-110 rounded-lg mt-2 flex hover:bg-purple-50">
+                <img class="w-20" src="" alt="">
+                <div class=" mt-2">
+                    <h1 class="font-bold ml-1">Certification prep</h1>
+                    <p class="text-[13px] mt-1 ml-1">Prep for industry-recognized certifications by solving <br>real-world challenges and earn badges along the way.</p>
+                     <div class="h-8 w-33 text-[13px] text-purple-900  font-bold pt-1.5 pl-1 hover:bg-purple-100 rounded-sm">
+                         <button>Explore courses</button>
+                         <i class="fa-solid fa-arrow-right ml-1"></i>
+                     </div>
+                </div>
+               
+
+             </div>
+             <div class="bg-white border-1 border-gray-300 h-30 w-110 rounded-lg mt-2 flex hover:bg-purple-50">
+                 <img class="w-20" src="" alt="">
+                <div class=" mt-2">
+                    <h1 class="font-bold ml-1">Insights and analytics  <button class="text-[10px] h-4 w-21 rounded-sm  border-1 border-purple-900 bg-white text-purple-900">Enterprise Plan</button>    </h1>
+                    <p class="text-[13px] mt-1 ml-1">Fast-track goals with advanced insights plus a dedicated <br>customer success team to help drive effective learning.</p>
+                     <div class="h-8 w-30 text-[13px] text-purple-900  font-bold pt-1.5 pl-1 hover:bg-purple-100 rounded-sm">
+                         <button>Find out more</button>
+                         <i class="fa-solid fa-arrow-right ml-1"></i>
+                     </div>
+                </div>
+
+             </div>
+             <div class="bg-white border-1 border-gray-300 h-30 w-110 rounded-lg mt-2 flex hover:bg-purple-50">
+                <img class="w-20" src="" alt="">
+                <div class=" mt-2">
+                    <h1 class="font-bold ml-1">Customizable content <button class="text-[10px] h-4 w-21 rounded-sm  border-1 border-purple-900 bg-white text-purple-900">Enterprise Plan</button>    </h1>
+                    <p class="text-[13px] mt-1 ml-1">Create tailored learning paths for team and organization <br>goals and even host your own content and resources.</p>
+                     <div class="h-8 w-30 text-[13px] text-purple-900  font-bold pt-1.5 pl-1 hover:bg-purple-100 rounded-sm">
+                         <button>Find out more</button>
+                         <i class="fa-solid fa-arrow-right ml-1"></i>
+                     </div>
+                </div>
+                
+             </div>
+            
+
+            </div>
+             <img class="w-120 mt-6 ml-15 h-125" src="img/a17.webp" alt="">
+               
+               
+          
+        
+
+
+
+
+
+         </div>
+
+
+
+    </div>
+    <div class="bg-white h-155">
+        <h1 class="font-bold font-serif text-2xl mt-10 ml-3">Accelerate growth — for you or your organization</h1>
+        <p class="text-sm ml-3 mt-2">Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more.</p>
+         <div class="flex mt-7">
+          <div class="border-1 border-gray-300 h-125 w-80 rounded-lg ml-3">
+            <div class="bg-purple-800 h-1.5 rounded-ss-sm rounded-se-sm"></div>
+            <div class=" bg-purple-50 h-22 ">
+                <h1 class="font-serif text-sm font-bold pt-3 pl-4">Personal Plan</h1>
+                <p class="text-[10px] pl-4">For you</p>
+                <div class="flex mt-2 pl-4">
+                     <i class="fa-regular fa-user"></i>
+                     <p class="text-[11px] ">Individual</p>
+                </div>
+
+            </div>
+            <div class="p-5">
+                 <h1 class="text-[12px] font-bold">Starting at ₹500 per month</h1>
+                 <p class="text-[10px]">Billed monthly or annually. Cancel anytime.</p>
+                 <div class="bg-purple-800 text-white h-10 w-70 pl-16 pt-2 rounded-sm mt-3 hover:bg-purple-600">
+                     <button class="text-sm font-bold ">Start subscription</button>
+                     <i class="fa-solid fa-arrow-right ml-1"></i>
+                 </div>
+                <div class="flex text-[11px] mt-5 gap-2"><i class="fa-solid fa-circle-check  bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                 <p> Access to 26,000+ top courses</p>
+                </div>
+                <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check  bg-green-900 text-white h-3 w-3 pr-0.5 rounded-lg"></i>
+                 <p> Certification prep</p>
+                </div>
+                <div class="flex text-[11px] mt-2 gap-2"><i class="fa-solid fa-circle-check  bg-green-900 text-white h-3 w-3 pr-0.5 rounded-lg"></i>
+                 <p> Goal-focused recommendations</p>
+                </div>
+                <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                 <p> AI-powered coding exercises</p>
+                </div>
+                 
+            </div>
+          
+            
+            
+         </div>
+            <div class="border-1 border-gray-300 h-125 w-80 rounded-lg ml-3">
+                <div class="bg-purple-800 h-1.5 rounded-ss-sm rounded-se-sm"></div>
+                <div class="bg-purple-50 h-22">
+                 <h1 class="font-serif text-sm font-bold pt-3 pl-4">Team Plan</h1>
+                 <p class="text-[10px] pl-4">For your term</p>
+                    <div class="flex mt-2 pl-4">
+                     <i class="fa-regular fa-user"></i>
+                     <p class="text-[11px] ">2 to 20 people</p>
+                    </div>
+                </div>
+                <div class="p-5">
+                 <h1 class="text-[12px] font-bold">₹2,000 a month per user</h1>
+                 <p class="text-[10px]">Billed annually. Cancel anytime.</p>
+                    <div class="bg-purple-800 text-white h-10 w-70 pl-16 pt-2 rounded-sm mt-3 hover:bg-purple-600">
+                     <button class="text-sm font-bold ">Start subscription</button>
+                     <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </div>
+                    <div class="flex text-[11px] mt-5 gap-2"><i class="fa-solid fa-circle-check  bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> Access to 13,000+ top courses</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check  bg-green-900 text-white h-3 w-3 pr-0.5 rounded-lg"></i>
+                     <p> Certification prep</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"><i class="fa-solid fa-circle-check  bg-green-900 text-white h-3 w-3 pr-0.5 rounded-lg"></i>
+                     <p> Goal-focused recommendations</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> AI-powered coding exercises</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> Analytics and adoption reports</p>
+                    </div>
+                 
+                </div>
+            </div>   
+            <div class="border-1 border-gray-300 h-125 w-80 rounded-lg ml-3">
+                <div class="bg-purple-800 h-1.5 rounded-ss-sm rounded-se-sm"></div>
+                <div class="bg-purple-50 h-22">
+                 <h1 class="font-serif text-sm font-bold pt-3 pl-4">Enterprise Plan</h1>
+                 <p class="text-[10px] pl-4">For your whole organisation</p>
+                    <div class="flex mt-2 pl-4">
+                     <i class="fa-regular fa-user"></i>
+                     <p class="text-[11px] ">More than 20 people</p>
+                    </div>
+                </div>
+                <div class="p-5">
+                 <h1 class="text-[12px] font-bold">Contact sales for pricing</h1>
+                 <div class="bg-purple-800 text-white h-10 w-70 pl-19 pt-2 rounded-sm mt-6 hover:bg-purple-600">
+                     <button class="text-sm font-bold ">Request a demo</button>
+                     <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </div>
+                    <div class="flex text-[11px] mt-5 gap-2"><i class="fa-solid fa-circle-check  bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> Access to 13,000+ top courses</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check  bg-green-900 text-white h-3 w-3 pr-0.5 rounded-lg"></i>
+                     <p> Certification prep</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"><i class="fa-solid fa-circle-check  bg-green-900 text-white h-3 w-3 pr-0.5 rounded-lg"></i>
+                     <p> Goal-focused recommendations</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> AI-powered coding exercises</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> Advanced analytics and insights</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> Dedicated customer success team</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> International course collection featuring 15 languages</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> Customizable content</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> Hands-on tech training with add-on</p>
+                    </div>
+                    <div class="flex text-[11px] mt-2 gap-2"> <i class="fa-solid fa-circle-check bg-green-900 text-white h-3 w-3  pr-0.5 rounded-lg"></i>
+                     <p> Strategic implementation services with add-on</p>
+                    </div>
+                 
+                </div>
+
+       
+
+
+
+
+
+
+
+            </div>
+        </div>     
+    </div>
+    <div class="h-94 bg-gray-100">
+        <h1 class="font-serif text-2xl font-bold text-gray-800 pt-10">See what others are achieving through learning</h1>
+        <div class="mt-7 flex gap-3 ">
+            <div class="border-1 border-gray-300 h-60 bg-white w-60 rounded-lg p-4">
+                 <i class="fa-solid fa-quote-left"></i>
+                 <p class="text-[11px]"> Because of this course I was able to clear <br>my two interviews... Thanks for making <br>such wonderful content.</p>
+                 <div class="flex gap-2 mt-13">
+                    <div class="bg-gray-900 text-white font-bold text-[11px] h-9 w-9 pl-2.5 pt-2.5 rounded-full">
+                     DS
+                    </div>
+                 <p class="text-[10px] mt-1">Diksha S</p>
+                 </div>
+                 <div class="text-purple-900 text-[11px] mt-7 hover:text-purple-500">
+                    <button>Business Intelligence (BI)</button><i class="fa-solid fa-greater-than text-[7px] pl-2"></i>
+                              
+                 </div>
+            </div>
+            <div class="border-1 border-gray-300 h-60 bg-white w-60 rounded-lg p-4">
+                 <i class="fa-solid fa-quote-left"></i>
+                 <p class="text-[11px]">This has helped me so much in my <br>career...I joined as a frontend engineer <br>and eventually transitioned to full stack <br>engineer with the help of this course.</p>
+                 <div class="flex gap-2 mt-9">
+                    <div class="bg-gray-900 text-white font-bold text-[11px] h-9 w-9 pl-2.5 pt-2.5 rounded-full">
+                     CB
+                    </div>
+                    <p class="text-[10px] mt-1"> Chethan B</p>
+                 </div>
+                 <div class="text-purple-900 text-[11px] mt-7 hover:text-purple-500">
+                    <button>View this go (golang) course.</button><i class="fa-solid fa-greater-than text-[7px] pl-2"></i>
+                         
+                 </div>
+
+            </div>
+            <div class="border-1 border-gray-300 h-60 bg-white w-60 rounded-lg p-4">
+                 <i class="fa-solid fa-quote-left"></i>
+                 <p class="text-[11px]">Today, I am a software developer, and I <br> credit a significant part of my success to <br> the solid foundation laid by this course.</p>
+                 <div class="flex gap-2 mt-13">
+                    <div class="bg-gray-900 text-white font-bold text-[11px] h-9 w-9 pl-2.5 pt-2.5 rounded-full">
+                        BK
+                    </div>
+                    <p class="text-[10px] mt-1">Batchu K</p>
+
+                 </div>
+                 <div class="text-purple-900 text-[11px] mt-7 hover:text-purple-500">
+                    <button>View this Java course</button><i class="fa-solid fa-greater-than text-[7px] pl-2"></i>
+                         
+                 </div>
+
+            </div>
+            <div class="border-1 border-gray-300 h-60 bg-white w-60 rounded-lg p-4 ">
+                 <i class="fa-solid fa-quote-left"></i>
+                 <p class="text-[11px]"> I would highly recommend this Web <br>Development Bootcamp to anyone <br>interested in pursuing a career in web <br>development or looking to enhance their <br>skills in this field.</p>
+                 <div class="flex gap-2 mt-5">
+                    <div class="bg-gray-900 text-white font-bold text-[11px] h-9 w-9 pl-2.5 pt-2.5 rounded-full">
+                        AK
+                    </div>
+                    <p class="text-[10px] mt-1"> Ankit K</p>
+                 </div>
+                 <div class="text-purple-900 text-[11px] mt-7 hover:text-purple-500">
+                    <button>View this Web Development course</button><i class="fa-solid fa-greater-than text-[7px] pl-2"></i>
+                        
+                 </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+    <div class="h-115 flex">
+        <div class="mt-30 ml-5">
+            <h1 class="font-bold font-serif text-2xl">AI for Business Leaders</h1>
+            <p class="text-sm mt-5"> Build an AI-habit for you and <br>your team that builds hands- <br>on skills to help you lead <br>effectively. </p>
+            <div class="text-[12px] text-purple-800 border-1 border-purple-800 font-bold h-8 w-30 rounded-sm mt-5 p-1 pl-2.5 hover:bg-purple-200">
+                <button>Start Learning<button>
+                <i class="fa-solid fa-arrow-right ml-1"></i> 
+            </div>
+        </div>
+        
+         <img src="img/ai business.png" alt="">
+
+
+    </div>
+    <div class="h-216 bg-gray-100 p-2">
+        <div class="text-2xl text-gray-800 font-bold font-serif pt-10 pb-3 border-b-1 border-gray-300">
+            Trending Now
+        </div>
+        <div class="flex gap-13">
+            <div>
+                <h1 class="font-bold text-2xl mt-6">ChatGPT is a top <br>skill</h1>
+                <div class="text-purple-700 font-bold mt-3 text-sm hover:text-purple-500">
+                    <button >See ChatGPT courses</button>
+                    <i class="fa-solid fa-greater-than text-[9px] pl-2"></i>
+                </div>
+                <p class="text-[11px] text-gray-400 mt-1">4,923,174 learners</p>
+                <div class="text-purple-700 font-bold text-[11px] border-1 border-purple-700 h-8 w-55 rounded-sm pt-1.5 pl-10 mt-8 hover:bg-purple-200">
+                    <button>Show all trading skills</button>
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                </div>
+
+            </div>
+            <div >
+                <h1 class="font-bold text-xl text-gray-900 mt-6">Development</h1>
+                <div class="text-purple-700 font-bold text-sm mt-3 hover:text-purple-500">
+                    Python
+                    <i class="fa-solid fa-greater-than text-[9px] pl-2"></i>
+                </div>
+                <p class="text-[11px] text-gray-400 mt-1"> 49,083,276 learners</p>
+                <div class="text-purple-700 font-bold text-sm mt-3 hover:text-purple-500">
+                    Web<br>Development
+                    <i class="fa-solid fa-greater-than text-[9px] pl-2 "></i>
+                </div>
+                 <p class="text-[11px] text-gray-400 mt-1"> 14,258,514 learners</p>
+                <div class="text-purple-700 font-bold text-sm mt-3 hover:text-purple-500">
+                    Data Science
+                    <i class="fa-solid fa-greater-than text-[9px] pl-2"></i>
+                </div>
+                <p class="text-[11px] text-gray-400 mt-1"> 8,062,063 learners</p>
+
+
+            </div>
+            <div>
+                <h1 class="font-bold text-xl text-gray-900 mt-6">Design</h1>
+                <div class="text-purple-700 font-bold text-sm mt-3 hover:text-purple-500">
+                    Blender
+                    <i class="fa-solid fa-greater-than text-[9px] pl-2"></i>
+                </div>
+                <p class="text-[11px] text-gray-400 mt-1"> 3,020,564 learners</p>
+                <div class="text-purple-700 font-bold text-sm mt-3 hover:text-purple-500">
+                    Graphic Designer
+                    <i class="fa-solid fa-greater-than text-[9px] pl-2 "></i>
+                </div>
+                 <p class="text-[11px] text-gray-400 mt-1"> 4,598,970 learners</p>
+                <div class="text-purple-700 font-bold text-sm mt-3 hover:text-purple-500">
+                    User Experience (UX) <br> Designer
+                    <i class="fa-solid fa-greater-than text-[9px] pl-16"></i>
+                </div>
+                <p class="text-[11px] text-gray-400 mt-1"> 2,112,967 learners</p>
+
+
+            </div>
+            <div>
+                <h1 class="font-bold text-xl text-gray-900 mt-6">Business</h1>
+                <div class="text-purple-700 font-bold text-sm mt-3 hover:text-purple-500">
+                    PMI Project Management Professional (PMP)
+                    <i class="fa-solid fa-greater-than text-[9px] pl-2"></i>
+                </div>
+                <p class="text-[11px] text-gray-400 mt-1"> 2,711,640 learners</p>
+                <div class="text-purple-700 font-bold text-sm mt-3 hover:text-purple-500">
+                    Microsoft Power BI
+                    <i class="fa-solid fa-greater-than text-[9px] pl-2 "></i>
+                </div>
+                 <p class="text-[11px] text-gray-400 mt-1"> 4,888,198 learners</p>
+                <div class="text-purple-700 font-bold text-sm mt-3 hover:text-purple-500">
+                    PMI Certified Associate In Project Management <br> (CAPM)
+                    <i class="fa-solid fa-greater-than text-[9px] pl-65"></i>
+                </div>
+                <p class="text-[11px] text-gray-400 mt-1"> 451,662 learners</p>
+
+
+            </div>
+
+
+
+
+
+        </div>
+        <div class="flex">
+            <div class="h-125 w-125 mt-10 ">
+                <h1 class="text-2xl pt-10">Booz | Allen | Hamilton</h1>
+                <p class="text-2xl font-bold mt-6">Booz Allen Hamilton Unlocks Talent <br>Retention and Productivity Through <br>Upskilling</p>
+                <div class="flex gap-4 mt-6">
+                    <div class="border-gray-300 border-b-1 pb-5">
+                        <h1 class="font-bold text-5xl">93%</h1>
+                        <p class="text-[12px]"> retention rate among participating <br>employees</p>
+                    </div>
+                    <div class="border-gray-300 border-b-1 pb-5">
+                        <h1 class="font-bold text-5xl">65%</h1>
+                        <p class="text-[12px]">  of learners noted a positive impact <br>on their productivity</p>
+                    </div>
+                </div>
+                <div class="text-[11px] pl-2.5 pt-2 rounded-sm font-bold bg-purple-800 text-white h-8 w-30 mt-7">
+                    <button >Read full story</button>
+                    <i class="fa-solid fa-arrow-right ml-1"></i> 
+
+                </div>
+            </div>
+            <img class="mt-10 h-125 w-125" src="img/trading 1.jpg" alt="">
+            
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+    <div class=" bg-gray-900 border-1 border-white h-19 flex justify-evenly items-center">
+        <h1 class="font-bold text-white text-sm">Top companies choose <span class="text-blue-200 hover:border-b-1 border-blue-200 cursor-pointer ">Udemy Business</span> to build in-demand career skills.</h1>
+        <div class="flex justify-evenly items-center"> 
+             <img src="" alt="">
+             <img class="h-12" src="img/vw1.png" alt="">
+             <img class="" src="" alt="">
+             <img class="h-18 mt-2" src="img/eventbrite1.png" alt="">
+        </div>
+    </div>
+    <div class="bg-gray-900 text-white h-105 pl-10 pt-8">
+        <h1 class="font-serif  font-bold text-sm">Explore top skills and certifications</h1>
+        <div class="flex gap-23 mt-7">
+            <div>
+                <h1 class="font-bold text-[13px] ">In-demand Careers</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Data Scientist</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Full Stack Web Developer</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Cloud Engineer</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Project Manager</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Game Developer</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">All Career Accelerators</li>
+                </ul>
+
+            </div>
+            <div>
+                <h1 class="font-bold text-[13px]">Web Development</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer ">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Web Development</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">JavaScript</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">React JS</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Angular</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Java</li>
+                </ul>
+
+            </div>
+            <div>
+                <h1 class="font-bold text-[13px]">IT Certifications</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Amazon AWS</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">AWS Certified Cloud Practitioner</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">AZ-900: Microsoft Azure Fundamentals</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">AWS Certified Solutions Architect - <br>Associate</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Kubernetes</li>
+                </ul>
+
+            </div>
+            <div>
+                <h1 class="font-bold text-[13px]">Leadership</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Leadership</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Management Skills</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Project Management</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Personal Productivity</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Emotional Intelligence</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="flex mt-7">
+             <div>
+                <h1 class="font-bold text-[13px] ">Certifications by Skill</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Cybersecurity Certification</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Project Management Certification</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Cloud Certification</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Data Analytics Certification</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">HR Management Certification</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">See all Certifications</li>
+                </ul>
+
+            </div>
+            <div class="ml-13">
+                <h1 class="font-bold text-[13px]">Data Science</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer ">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Data Science</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Python</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Machine Learning</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">ChatGPT</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Deep Learning</li>
+                </ul>
+
+            </div>
+            <div class="ml-30">
+                <h1 class="font-bold text-[13px]">Communication</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Communication Skills</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Presentation Skills</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Public Speaking</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Writing</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">PowerPoint</li>
+                </ul>
+
+            </div>
+            <div class="ml-44">
+                <h1 class="font-bold text-[13px]">Business Analytics & Intelligence</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Microsoft Excel</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">SQL</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Microsoft Power BI</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Data Analysis</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Business Analysis</li>
+
+                </ul>
+
+            </div>
+
+           
+        </div>
+
+    </div>
+    <div class="bg-gray-950 h-45 text-white pl-10 pt-8">
+        <div class="flex ">
+             <div>
+                <h1 class="font-bold text-[13px] ">About</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer">
+                    <li class="mb-0.5 hover:border-b-1 border-white">About us</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Careers</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Contact us</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Blog</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Investors</li>
+                    
+                </ul>
+
+            </div>
+            <div class="ml-41">
+                <h1 class="font-bold text-[13px]">Discover Udemy</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer ">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Get the app</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Teach on Udemy</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Plans and Pricing</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Affiliate</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Help and Support</li>
+                </ul>
+
+            </div>
+            <div class="ml-27">
+                <h1 class="font-bold text-[13px]">Udemy for Business</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Udemy Business</li>
+                    
+                </ul>
+
+            </div>
+            <div class="ml-40">
+                <h1 class="font-bold text-[13px]">Legal & Accessibility</h1>
+                <ul class="text-[11px] mt-2.5 hover:cursor-pointer">
+                    <li class="mb-0.5 hover:border-b-1 border-white">Accessibility statement</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Privacy policy</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Sitemap</li>
+                    <li class="mb-0.5 hover:border-b-1 border-white">Terms</li>
+                    
+
+                </ul>
+
+            </div>
+
+           
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="bg-gray-950 h-15 text-white pl-10 border-1 border-white flex">
+         <div class="flex">
+            <img class="h-11 mt-1" src="img/udemy1.png" alt="">
+            <p class="text-[11px] mt-5 ml-3">© 2025 Udemy, Inc.</p>
+        </div>
+        <button class="text-[11px] hover:border-b-1 border-white cursor-pointer h-3.5 ml-75 mt-5">Cookie settings</button>
+        <i class="fa-solid fa-globe mt-6 ml-75 text-[11px]"></i>
+        <button class="text-[12px] h-3.5 mt-5 ml-1 hover:cursor-pointer">English</button>
+
+    </div>
+    
+
+
+    
+
+
+
+</body>
+
+</html>
